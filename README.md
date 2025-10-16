@@ -1,6 +1,7 @@
-# FHEVM React Template
+# 🐉 FHEVM Dragon Ball Voting dApp
 
-A minimal React frontend template for building FHEVM-enabled decentralized applications (dApps). This template provides a simple development interface for interacting with FHEVM smart contracts, specifically the `FHECounter.sol` contract.
+A minimal React frontend template for building FHEVM-enabled decentralized applications (dApps).
+This project demonstrates how to build a private voting dApp where users can vote for their favorite `Dragon Ball characters` — using Fully Homomorphic Encryption (FHE).
 
 ## 🚀 What is FHEVM?
 
@@ -134,8 +135,8 @@ fhevm-react-template/
 
 ### Key Components
 
-#### 🔗 FHEVM Integration (`packages/nextjs/hooks/fhecounter-example/`)
-- **`useFHECounterWagmi.tsx`**: Example hook demonstrating FHEVM contract interaction
+#### 🔗 FHEVM Integration (`packages/nextjs/hooks`)
+- **`useFHEVoteDragonWagmi.tsx`**: Hook demonstrating FHEVM contract interaction
 - Essential hooks for FHEVM-enabled smart contract communication
 - Easily copyable to any FHEVM + React project
 
